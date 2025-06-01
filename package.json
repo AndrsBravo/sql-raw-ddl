@@ -1,0 +1,36 @@
+{
+  "name": "sql-raw-ddl",
+  "version": "0.0.0",
+  "description": "Execute DDL Operations to a DB using .sql files.",
+  "scripts": {
+    "test": "node --test ./test",
+    "test:dev": "node --watch --test ./test"
+  },
+  "exports": {
+    "./mysql": "./src/mysql/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrsBravo/sql-raw-ddl.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "sql",
+    "raw",
+    "sql files",
+    "nodejs",
+    "express",
+    "ddl"
+  ],
+  "author": "Andres Bravo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrsBravo/sql-raw-ddl/issues"
+  },
+  "homepage": "https://github.com/AndrsBravo/sql-raw-ddl#readme",
+  "dependencies": {
+    "mysql2": "^3.6.5"
+  }
+}
